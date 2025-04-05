@@ -89,7 +89,7 @@ server <- function(input, output, session) {
   )
   
   observe({
-    file_path <- "data/Data_Train.xlsx"
+    file_path <- "Data_Train.xlsx"
     if (file.exists(file_path)) {
       data_loaded$raw_data <- read_excel(file_path)
     } else {
