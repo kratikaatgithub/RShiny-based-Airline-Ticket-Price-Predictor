@@ -1,4 +1,4 @@
-## Airline Ticket Price Prediction Explorer  
+## Flight Ticket Price Prediction Explorer  
 
 ## 🛫 Overview  
 
