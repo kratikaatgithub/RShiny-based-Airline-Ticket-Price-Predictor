@@ -15,12 +15,11 @@ This **Shiny application** is an interactive tool for exploring and predicting a
 - **Holt-Winters** exponential smoothing (customizable alpha, beta, gamma)  
 
 ### 📈 **Interactive Visualizations**  
-- Actual vs. predicted price plots (regression)  
+- Actual vs. predicted price plots (Liner Regression)  
 - Time series fitting visualizations (ARIMA/Holt-Winters)  
 - Dynamic data tables with filtering  
 
 ### 🛠 **Automated Data Processing**  
-- Cleans raw flight data (date parsing, duration conversion, stop-count normalization)  
 - Handles missing values and outliers  
 - Converts data for time-series analysis (daily averages)  
 
@@ -30,13 +29,6 @@ This **Shiny application** is an interactive tool for exploring and predicting a
 - **R Shiny** (frontend + backend)  
 - **Packages**: `forecast`, `dplyr`, `lubridate`, `ggplot2`, `DT`  
 - **Deployment**: Hosted on **shinyapps.io**  
-
----  
-
-## 🎯 Use Cases  
-✔ **Recruiters**: Evaluate predictive modeling and Shiny development skills  
-✔ **Data Scientists**: Explore flight price trends and model performance  
-✔ **Analysts**: Compare regression vs. time-series approaches  
 
 ---  
 
